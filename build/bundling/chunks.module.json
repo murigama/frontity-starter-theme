@@ -1,0 +1,162 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.46.0",
+  "hash": "0aa8c2bdf9550b47ca32",
+  "publicPath": "/static/",
+  "outputPath": "/Users/Murilo.Gama/Development/frontity-test/build/static",
+  "assetsByChunkName": {
+    "frontity-test": [
+      "frontity-test.module.js",
+      "frontity-test.c141b19de50e5e7f74c2.hot-update.js"
+    ],
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "c141b19de50e5e7f74c2.hot-update.json",
+      "size": 55,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "frontity-test.c141b19de50e5e7f74c2.hot-update.js",
+      "size": 20458,
+      "chunks": [
+        "frontity-test"
+      ],
+      "chunkNames": [
+        "frontity-test"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "frontity-test.module.js",
+      "size": 6488316,
+      "chunks": [
+        "frontity-test"
+      ],
+      "chunkNames": [
+        "frontity-test"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 47041,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "frontity-test": {
+      "chunks": [
+        "frontity-test"
+      ],
+      "assets": [
+        "frontity-test.module.js",
+        "frontity-test.c141b19de50e5e7f74c2.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "frontity-test": {
+      "chunks": [
+        "frontity-test"
+      ],
+      "assets": [
+        "frontity-test.module.js",
+        "frontity-test.c141b19de50e5e7f74c2.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "frontity-test",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 1680466,
+      "names": [
+        "frontity-test"
+      ],
+      "files": [
+        "frontity-test.module.js",
+        "frontity-test.c141b19de50e5e7f74c2.hot-update.js"
+      ],
+      "hash": "7c61e227aea90c31acf1",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "list"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    },
+    {
+      "id": "list",
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "size": 29864,
+      "names": [
+        "list"
+      ],
+      "files": [
+        "list.module.js"
+      ],
+      "hash": "c368b4b9ee7537919627",
+      "siblings": [],
+      "parents": [
+        "frontity-test"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [],
+  "generator": "loadable-components"
+}
